@@ -13,3 +13,6 @@ print(driver.page_source)  # HTML code for the page
 
 driver.find_element_by_xpath("//*[@id='nav-xshop']/a[2]").click()
 time.sleep(5)
+
+#driver.close()             #curruntly focussed browser(parent window will close)
+#driver.quit()               #closes all the browser
