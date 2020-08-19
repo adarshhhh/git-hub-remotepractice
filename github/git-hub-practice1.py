@@ -10,7 +10,6 @@ driver.get("https://www.amazon.com/")
 print(driver.title)        # to capture title of the page
 print(driver.current_url)  # to capture current url of the page
 print(driver.page_source)  # HTML code for the page
-
 driver.find_element_by_xpath("//*[@id='nav-xshop']/a[2]").click()
 time.sleep(5)
 
@@ -37,3 +36,7 @@ time.sleep(5)
 #print(driver.title)
 
 #driver.close()
+=======
+#driver.close()             #curruntly focussed browser(parent window will close)
+#driver.quit()               #closes all the browser
+>>>>>>> 747918a76d7d870ff9a4aece1ea0fdf737bff773
